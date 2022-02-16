@@ -1,0 +1,1554 @@
+date Fri 21 Jan 2022 10:43:28 GMT
+hostname MacBook-Pro-3.local
+system Darwin MacBook-Pro-3.local 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:27 PDT 2021; root:xnu-7195.141.2~5/RELEASE_ARM64_T8101 x86_64
+user brunocamino
+output data in /Users/brunocamino/Desktop/Imperial/cmsg_icl/ml-surface-adsorption/data/Mg2O2_O1_100_3.out
+crystal executable in /Users/brunocamino/crystal
+input data in /Users/brunocamino/Desktop/Imperial/cmsg_icl/ml-surface-adsorption/data/Mg2O2_O1_100_3.d12
+temporary directory /Users/brunocamino/crystal/tmp
+external geometry input from /Users/brunocamino/Desktop/Imperial/cmsg_icl/ml-surface-adsorption/data/Mg2O2_O1_100_3.gui
+external geometry input saved in /Users/brunocamino/Desktop/Imperial/cmsg_icl/ml-surface-adsorption/data/Mg2O2_O1_100_3_inp.gui
+Adsorption tests
+EXTERNAL
+EXTPRT
+BASISSET
+STO-3G
+DFT
+B3LYP
+XXLGRID
+ENDDFT
+TOLINTEG
+7 7 7 7 14
+SHRINK
+12 24
+MAXCYCLE
+200
+FMIXING
+70
+DIIS
+ENDSCF
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL17                                     *
+ *                      public : 1.0.2 - March 1st, 2018                       *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(2,6), I.J. BUSH(7), Ph. D'ARCO(8),               *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11)                                            *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18)                                                          *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) COMPUTATIONAL SCIENCE & ENGINEERING DEPARTMENT - STFC DARESBURY (UK)    *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) OXFORD E-RESEARCH CENTRE - OXFORD (UK)                                  *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 21 01 2022 TIME 10:43:28.9
+ Adsorption tests                                                                
+
+ GEOMETRY INPUT FROM EXTERNAL FILE (FORTRAN UNIT 34)
+ 2D - SLAB    
+
+ *******************************************************************************
+ LATTICE PARAMETERS  (ANGSTROMS AND DEGREES) - PRIMITIVE CELL
+       A          B          C        ALPHA      BETA     GAMMA        VOLUME
+    3.00979    3.00979  500.00000    90.00000  90.00000  90.00000      9.058828
+ INFORMATION **** CHKGRP **** SPGR WITH NO INVERSION
+
+ NUMBER OF IRREDUCIBLE ATOMS IN THE CELL:    6
+
+ CARTESIAN COORDINATES (ANGSTROM) - IRREDUCIBLE ATOMS AND SYMMETRY RELATED
+
+ AT.IRR.  AT  AT.N.          X                   Y                   Z
+     1     1    12    0.000000000000E+00  0.000000000000E+00  1.064120000000E+00
+     2     2    12    1.504890000000E+00  1.504890000000E+00 -1.064120000000E+00
+     3     3     8    0.000000000000E+00  0.000000000000E+00 -1.064120000000E+00
+     4     4     8    1.504890000000E+00  1.504890000000E+00  1.064120000000E+00
+     5     5     8    1.504890000000E+00  0.000000000000E+00 -3.064120000000E+00
+     6     6     8    0.000000000000E+00  1.504890000000E+00  3.064120000000E+00
+
+ SYMMETRY CHANGED DURING OLD RUN :  INFORMATION ON SPACE GROUP LOST 
+ NUMBER OF SYMMETRY OPERATORS         :    4
+ *******************************************************************************
+ LATTICE PARAMETERS (ANGSTROMS AND DEGREES) - BOHR = 0.5291772083 ANGSTROM
+ PRIMITIVE CELL
+         A              B              C           ALPHA      BETA       GAMMA 
+     3.00978870     3.00978870   500.00000000    90.000000  90.000000  90.000000
+ *******************************************************************************
+ ATOMS IN THE ASYMMETRIC UNIT    6 - ATOMS IN THE UNIT CELL:    6
+     ATOM                 X/A                 Y/B             Z(ANGSTROM)
+ *******************************************************************************
+      1 T  12 MG    0.000000000000E+00  0.000000000000E+00  1.064120000000E+00
+      2 T  12 MG    4.999985546474E-01  4.999985546474E-01 -1.064120000000E+00
+      3 T   8 O     0.000000000000E+00  0.000000000000E+00 -1.064120000000E+00
+      4 T   8 O     4.999985546474E-01  4.999985546474E-01  1.064120000000E+00
+      5 T   8 O     4.999985546474E-01  0.000000000000E+00 -3.064120000000E+00
+      6 T   8 O     3.061608147636E-17  4.999985546474E-01  3.064120000000E+00
+
+ T = ATOM BELONGING TO THE ASYMMETRIC UNIT
+ *******************************************************************************
+ * GEOMETRY EDITING - INPUT COORDINATES ARE GIVEN IN ANGSTROM         
+ *******************************************************************************
+
+ GEOMETRY NOW FULLY CONSISTENT WITH THE GROUP
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    83    83     0
+ NO.OF VECTORS CREATED 6999 STARS  686 RMAX   268.28716 BOHR
+
+ GEOMETRY FOR WAVE FUNCTION - DIMENSIONALITY OF THE SYSTEM    2
+ (NON PERIODIC DIRECTION: LATTICE PARAMETER FORMALLY SET TO 500)
+ *******************************************************************************
+ LATTICE PARAMETERS (ANGSTROMS AND DEGREES) - BOHR = 0.5291772083 ANGSTROM
+ PRIMITIVE CELL
+         A              B              C           ALPHA      BETA       GAMMA 
+     3.00978870     3.00978870   500.00000000    90.000000  90.000000  90.000000
+ *******************************************************************************
+ ATOMS IN THE ASYMMETRIC UNIT    6 - ATOMS IN THE UNIT CELL:    6
+     ATOM                 X/A                 Y/B             Z(ANGSTROM)
+ *******************************************************************************
+      1 T  12 MG    0.000000000000E+00  0.000000000000E+00  1.064120000000E+00
+      2 T  12 MG   -5.000000000000E-01 -5.000000000000E-01 -1.064120000000E+00
+      3 T   8 O     0.000000000000E+00  0.000000000000E+00 -1.064120000000E+00
+      4 T   8 O    -5.000000000000E-01 -5.000000000000E-01  1.064120000000E+00
+      5 T   8 O    -5.000000000000E-01  0.000000000000E+00 -3.064120000000E+00
+      6 T   8 O     0.000000000000E+00 -5.000000000000E-01  3.064120000000E+00
+
+ T = ATOM BELONGING TO THE ASYMMETRIC UNIT
+
+ ****    4 SYMMOPS - TRANSLATORS IN FRACTIONAL UNITS
+ **** MATRICES AND TRANSLATORS IN THE CRYSTALLOGRAPHIC REFERENCE FRAME
+   V INV                    ROTATION MATRICES                   TRANSLATORS
+   1   1  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   2   2 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   3   3 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   4   4  1.00 -0.00  0.00  0.00 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+
+ DIRECT LATTICE VECTORS CARTESIAN COMPONENTS (ANGSTROM)
+          X                    Y                    Z
+   0.300978870041E+01   0.000000000000E+00   0.000000000000E+00
+  -0.184296404903E-15   0.300978870041E+01   0.000000000000E+00
+   0.000000000000E+00   0.000000000000E+00   0.500000000000E+03
+
+
+ CARTESIAN COORDINATES - PRIMITIVE CELL
+ *******************************************************************************
+ *      ATOM          X(ANGSTROM)         Y(ANGSTROM)         Z(ANGSTROM)
+ *******************************************************************************
+    1    12 MG    0.000000000000E+00  0.000000000000E+00  1.064120000000E+00
+    2    12 MG    1.504894350206E+00  1.504894350206E+00 -1.064120000000E+00
+    3     8 O     0.000000000000E+00  0.000000000000E+00 -1.064120000000E+00
+    4     8 O     1.504894350206E+00  1.504894350206E+00  1.064120000000E+00
+    5     8 O     1.504894350206E+00  0.000000000000E+00 -3.064120000000E+00
+    6     8 O    -9.214820245174E-17  1.504894350206E+00  3.064120000000E+00
+
+ *******************************************************************************
+ STARTING BASIS SET HANDLING 
+ *******************************************************************************
+
+ Loading internal basis set: STO-3G              
+
+ Please cite in your publication:
+ H - Ne: W.J. Hehre, R.F. Stewart and J.A. Pople, J. Chem. Phys. 2657 (1969).   
+                                                                                
+                                                                                
+                    
+ Na - Ar: W.J. Hehre, R. Ditchfield, R.F. Stewart, J.A. Pople, J. Chem. Phys.  2
+ 769 (1970).                                                                    
+                                                                                
+                    
+ K,Ca: W.J. Pietro, B.A. Levy, W.J. Hehre and R.F. Stewart, Inorg. Chem., 1980, 
+ 19 (8), pp 2225-2229                                                           
+                                                                                
+                    
+ Ga-Kr: J. Am. Chem. Soc. 19, 2225 (1980).                                      
+                                                                                
+                                                                                
+                    
+ Sc-Zn, Y-Cd: W.J. Pietro and W.J. Hehre, J. Comp. Chem. 4, 241 (1983).         
+                                                                                
+                                                                                
+                    
+
+ *******************************************************************************
+ LOCAL ATOMIC FUNCTIONS BASIS SET
+ *******************************************************************************
+   ATOM   X(AU)   Y(AU)   Z(AU)  N. TYPE  EXPONENT  S COEF   P COEF   D/F/G COEF
+ *******************************************************************************
+   1 MG   0.000   0.000   2.011
+                                  1 S  
+                                         2.992E+02 1.543E-01 0.000E+00 0.000E+00
+                                         5.451E+01 5.353E-01 0.000E+00 0.000E+00
+                                         1.475E+01 4.446E-01 0.000E+00 0.000E+00
+                                  2 S  
+                                         1.512E+01-9.997E-02 0.000E+00 0.000E+00
+                                         3.514E+00 3.995E-01 0.000E+00 0.000E+00
+                                         1.143E+00 7.001E-01 0.000E+00 0.000E+00
+                                  3 S  
+                                         1.395E+00-2.196E-01 0.000E+00 0.000E+00
+                                         3.893E-01 2.256E-01 0.000E+00 0.000E+00
+                                         1.524E-01 9.004E-01 0.000E+00 0.000E+00
+                           4-     6 P  
+                                         1.512E+01 0.000E+00 1.559E-01 0.000E+00
+                                         3.514E+00 0.000E+00 6.077E-01 0.000E+00
+                                         1.143E+00 0.000E+00 3.920E-01 0.000E+00
+                           7-     9 P  
+                                         1.395E+00 0.000E+00 1.059E-02 0.000E+00
+                                         3.893E-01 0.000E+00 5.952E-01 0.000E+00
+                                         1.524E-01 0.000E+00 4.620E-01 0.000E+00
+   2 MG   2.844   2.844  -2.011
+   3 O    0.000   0.000  -2.011
+                                 19 S  
+                                         1.307E+02 1.543E-01 0.000E+00 0.000E+00
+                                         2.381E+01 5.353E-01 0.000E+00 0.000E+00
+                                         6.444E+00 4.446E-01 0.000E+00 0.000E+00
+                                 20 S  
+                                         5.033E+00-9.997E-02 0.000E+00 0.000E+00
+                                         1.170E+00 3.995E-01 0.000E+00 0.000E+00
+                                         3.804E-01 7.001E-01 0.000E+00 0.000E+00
+                          21-    23 P  
+                                         5.033E+00 0.000E+00 1.559E-01 0.000E+00
+                                         1.170E+00 0.000E+00 6.077E-01 0.000E+00
+                                         3.804E-01 0.000E+00 3.920E-01 0.000E+00
+   4 O    2.844   2.844   2.011
+   5 O    2.844   0.000  -5.790
+   6 O   -0.000   2.844   5.790
+
+ *******************************************************************************
+ FINISHED BASIS SET HANDLING 
+ *******************************************************************************
+
+ INFORMATION **** SET_MPP **** PCRYSTAL CALCULATION
+ INFORMATION **** READM2 **** NEW DEFAULT: FOCK/KS MATRIX MIXING SET TO 30 %
+ INFORMATION **** READM2 **** NEW DEFAULT: FULL DIRECT SCF MODE
+ INFORMATION **** READM2 **** NEW DEFAULT: COULOMB BIPOLAR BUFFER SET TO 32 Mb
+ INFORMATION **** READM2 **** NEW DEFAULT: EXCHANGE BIPOLAR BUFFER SET TO 32 Mb
+
+ *******************************************************************************
+ NEW DEFAULT: DFT INTEGRATION GRID INCREASED TO XLGRID
+ NEW DEFAULT: DIIS ACCELERATOR ACTIVE
+ USE KEYWORD NODIIS TO TURN IT OFF
+ *******************************************************************************
+
+ INFORMATION **** TOLINTEG **** COULOMB AND EXCHANGE SERIES TOLERANCES MODIFIED
+ INFORMATION **** MAXCYCLE **** MAX NUMBER OF SCF CYCLES SET TO         200
+ INFORMATION **** DIIS **** DIIS FOR SCF ACTIVE
+ INFORMATION **** DIIS **** LEVEL SHIFTER DISABLED
+ *******************************************************************************
+ N. OF ATOMS PER CELL         6  COULOMB OVERLAP TOL         (T1) 10**   -7
+ NUMBER OF SHELLS            22  COULOMB PENETRATION TOL     (T2) 10**   -7
+ NUMBER OF AO                38  EXCHANGE OVERLAP TOL        (T3) 10**   -7
+ N. OF ELECTRONS PER CELL    56  EXCHANGE PSEUDO OVP (F(G))  (T4) 10**   -7
+ CORE ELECTRONS PER CELL     28  EXCHANGE PSEUDO OVP (P(G))  (T5) 10**  -14
+ N. OF SYMMETRY OPERATORS     4  POLE ORDER IN MONO ZONE                  4
+ *******************************************************************************
+ TYPE OF CALCULATION :  RESTRICTED CLOSED SHELL
+ KOHN-SHAM HAMILTONIAN
+
+ (EXCHANGE)[CORRELATION] FUNCTIONAL:(BECKE 88)[LEE-YANG-PARR]
+
+ NON-LOCAL WEIGHTING FACTOR (EXCHANGE) =           0.9000
+ NON-LOCAL WEIGHTING FACTOR [CORRELATION] =        0.8100
+
+ HYBRID EXCHANGE - PERCENTAGE OF FOCK EXCHANGE    20.0000
+
+ CAPPA:IS1 12;IS2 12;IS3  1; K PTS MONK NET  49; SYMMOPS:K SPACE   8;G SPACE   4
+
+ *******************************************************************************
+ MAX NUMBER OF SCF CYCLES     200  CONVERGENCE ON DELTAP        10**-16
+ WEIGHT OF F(I) IN F(I+1)      70% CONVERGENCE ON ENERGY        10**- 6
+ SHRINK. FACT.(MONKH.)   12 12  1  NUMBER OF K POINTS IN THE IBZ     49
+ SHRINKING FACTOR(GILAT NET)   24  NUMBER OF K POINTS(GILAT NET)    169
+ *******************************************************************************
+ *** K POINTS COORDINATES (OBLIQUE COORDINATES IN UNITS OF IS = 12)
+   1-R(  0  0  0)   2-C(  1  0  0)   3-C(  2  0  0)   4-C(  3  0  0)
+   5-C(  4  0  0)   6-C(  5  0  0)   7-R(  6  0  0)   8-C(  0  1  0)
+   9-C(  1  1  0)  10-C(  2  1  0)  11-C(  3  1  0)  12-C(  4  1  0)
+  13-C(  5  1  0)  14-C(  6  1  0)  15-C(  0  2  0)  16-C(  1  2  0)
+  17-C(  2  2  0)  18-C(  3  2  0)  19-C(  4  2  0)  20-C(  5  2  0)
+  21-C(  6  2  0)  22-C(  0  3  0)  23-C(  1  3  0)  24-C(  2  3  0)
+  25-C(  3  3  0)  26-C(  4  3  0)  27-C(  5  3  0)  28-C(  6  3  0)
+  29-C(  0  4  0)  30-C(  1  4  0)  31-C(  2  4  0)  32-C(  3  4  0)
+  33-C(  4  4  0)  34-C(  5  4  0)  35-C(  6  4  0)  36-C(  0  5  0)
+  37-C(  1  5  0)  38-C(  2  5  0)  39-C(  3  5  0)  40-C(  4  5  0)
+  41-C(  5  5  0)  42-C(  6  5  0)  43-R(  0  6  0)  44-C(  1  6  0)
+  45-C(  2  6  0)  46-C(  3  6  0)  47-C(  4  6  0)  48-C(  5  6  0)
+  49-R(  6  6  0)
+
+ DIRECT LATTICE VECTORS COMPON. (A.U.)     RECIP. LATTICE VECTORS COMPON. (A.U.) 
+        X            Y            Z              X            Y            Z
+    5.6876764    0.0000000    0.0000000      1.1047016    0.0000000    0.0000000
+   -0.0000000    5.6876764    0.0000000      0.0000000    1.1047016    0.0000000
+    0.0000000    0.0000000  944.8630670      0.0000000    0.0000000    0.0066498
+
+ DISK SPACE FOR EIGENVECTORS (FTN 10)      135736 REALS
+
+ SYMMETRY ADAPTION OF THE BLOCH FUNCTIONS ENABLED
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.01 TCPU        0.01
+
+ MATRIX SIZE: P(G)   21654, F(G)    4662, P(G) IRR    3810, F(G) IRR    1816
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS  59
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        0.01 TCPU        0.01
+
+ NEIGHBORS OF THE NON-EQUIVALENT ATOMS
+
+ N = NUMBER OF NEIGHBORS AT DISTANCE R
+    ATOM  N     R/ANG      R/AU   NEIGHBORS (ATOM LABELS AND CELL INDICES)
+   1 MG   1     2.1282     4.0218    3 O    0 0 0
+   1 MG   4     2.1282     4.0218    4 O    0 0 0    4 O   -1 0 0    4 O    0-1 0
+                                     4 O   -1-1 0
+   1 MG   2     2.5029     4.7299    6 O    0 0 0    6 O    0-1 0
+   1 MG   4     3.0098     5.6877    2 MG   0 0 0    2 MG  -1 0 0    2 MG   0-1 0
+                                     2 MG  -1-1 0
+   1 MG   4     3.0098     5.6877    1 MG  -1 0 0    1 MG   1 0 0    1 MG   0-1 0
+                                     1 MG   0 1 0
+   1 MG   4     3.6862     6.9660    3 O    1 0 0    3 O   -1 0 0    3 O    0 1 0
+                                     3 O    0-1 0
+
+   2 MG   1     2.1282     4.0218    4 O    0 0 0
+   2 MG   4     2.1282     4.0218    3 O    0 0 0    3 O    1 0 0    3 O    0 1 0
+                                     3 O    1 1 0
+   2 MG   2     2.5029     4.7299    5 O    0 0 0    5 O    0 1 0
+   2 MG   4     3.0098     5.6877    1 MG   0 0 0    1 MG   1 0 0    1 MG   0 1 0
+                                     1 MG   1 1 0
+   2 MG   4     3.0098     5.6877    2 MG  -1 0 0    2 MG   1 0 0    2 MG   0-1 0
+                                     2 MG   0 1 0
+   2 MG   4     3.6862     6.9660    4 O   -1 0 0    4 O    1 0 0    4 O    0-1 0
+                                     4 O    0 1 0
+
+   3 O    1     2.1282     4.0218    1 MG   0 0 0
+   3 O    4     2.1282     4.0218    2 MG   0 0 0    2 MG  -1 0 0    2 MG   0-1 0
+                                     2 MG  -1-1 0
+   3 O    2     2.5029     4.7299    5 O    0 0 0    5 O   -1 0 0
+   3 O    4     3.0098     5.6877    4 O    0 0 0    4 O   -1 0 0    4 O    0-1 0
+                                     4 O   -1-1 0
+   3 O    4     3.0098     5.6877    3 O   -1 0 0    3 O    1 0 0    3 O    0-1 0
+                                     3 O    0 1 0
+   3 O    4     3.6862     6.9660    1 MG  -1 0 0    1 MG   1 0 0    1 MG   0-1 0
+                                     1 MG   0 1 0
+
+   4 O    1     2.1282     4.0218    2 MG   0 0 0
+   4 O    4     2.1282     4.0218    1 MG   0 0 0    1 MG   1 0 0    1 MG   0 1 0
+                                     1 MG   1 1 0
+   4 O    2     2.5029     4.7299    6 O    0 0 0    6 O    1 0 0
+   4 O    4     3.0098     5.6877    3 O    0 0 0    3 O    1 0 0    3 O    0 1 0
+                                     3 O    1 1 0
+   4 O    4     3.0098     5.6877    4 O   -1 0 0    4 O    1 0 0    4 O    0-1 0
+                                     4 O    0 1 0
+   4 O    4     3.6862     6.9660    2 MG   1 0 0    2 MG  -1 0 0    2 MG   0 1 0
+                                     2 MG   0-1 0
+
+   5 O    2     2.5029     4.7299    2 MG   0 0 0    2 MG   0-1 0
+   5 O    2     2.5029     4.7299    3 O    0 0 0    3 O    1 0 0
+   5 O    4     3.0098     5.6877    5 O   -1 0 0    5 O    1 0 0    5 O    0-1 0
+                                     5 O    0 1 0
+   5 O    4     3.9145     7.3974    2 MG  -1 0 0    2 MG   1 0 0    2 MG  -1-1 0
+                                     2 MG   1-1 0
+   5 O    4     3.9145     7.3974    3 O    0-1 0    3 O    0 1 0    3 O    1 1 0
+                                     3 O    1-1 0
+   5 O    4     4.2565     8.0436    5 O   -1-1 0    5 O    1 1 0    5 O   -1 1 0
+                                     5 O    1-1 0
+
+   6 O    2     2.5029     4.7299    1 MG   0 0 0    1 MG   0 1 0
+   6 O    2     2.5029     4.7299    4 O    0 0 0    4 O   -1 0 0
+   6 O    4     3.0098     5.6877    6 O   -1 0 0    6 O    1 0 0    6 O    0-1 0
+                                     6 O    0 1 0
+   6 O    4     3.9145     7.3974    1 MG   1 0 0    1 MG  -1 0 0    1 MG   1 1 0
+                                     1 MG  -1 1 0
+   6 O    4     3.9145     7.3974    4 O    0 1 0    4 O    0-1 0    4 O   -1-1 0
+                                     4 O   -1 1 0
+   6 O    4     4.2565     8.0436    6 O   -1-1 0    6 O    1 1 0    6 O   -1 1 0
+                                     6 O    1-1 0
+
+
+ SYMMETRY ALLOWED INTERNAL DEGREE(S) OF FREEDOM:   5
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        0.02 TCPU        0.02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        0.02 TCPU        0.02
+ INFORMATION **** EXCBUF **** EXCH. BIPO BUFFER: WORDS USED =      106470
+
+ DFT PARAMETERS
+
+     ATOM       ELECTRONS   NET CHARGE   R(ANGSTROM)
+   1  12  MG     12.0000      0.0000     1.60000000
+   3   8  O       8.0000      0.0000     0.74000000
+
+ SIZE OF GRID=      82708
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MAKE_GRID2  TELAPSE        1.10 TCPU        1.10
+ BECKE WEIGHT FUNCTION
+ RADSAFE =     2.00
+ TOLERANCES - DENSITY:10**- 6; POTENTIAL:10**- 9; GRID WGT:10**-14
+
+ RADIAL INTEGRATION  - INTERVALS (POINTS,UPPER LIMIT):            1( 99,  4.0*R)
+
+ ANGULAR INTEGRATION - INTERVALS (ACCURACY LEVEL [N. POINTS] UPPER LIMIT):
+  1(  6[ 146]   0.2)  2( 11[ 302]   0.5)  3( 14[ 590]   0.9)  4( 18[1454]   3.5)
+  5( 14[ 590]9999.0)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_CALC    TELAPSE        1.10 TCPU        1.10
+ EEEEEEEEEE INT_CALC TERMINATION  DATE 21 01 2022 TIME 10:43:30.0
+
+ *******************************************************************************
+ Adsorption tests                                                                
+ CRYSTAL - SCF - TYPE OF CALCULATION :  RESTRICTED CLOSED SHELL
+ *******************************************************************************
+
+ CAPPA:IS1 12;IS2 12;IS3  1; K PTS MONK NET  49; SYMMOPS:K SPACE   8;G SPACE   4
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SDIK        TELAPSE        1.12 TCPU        1.11
+
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+         ATOMIC WAVEFUNCTION(S)
+
+
+ NUCLEAR CHARGE 12.0  SYMMETRY SPECIES            S    P
+ N. ELECTRONS   12.0  NUMBER OF PRIMITIVE GTOS    9    6
+                      NUMBER OF CONTRACTED GTOS   3    2
+                      NUMBER OF CLOSED SHELLS     3    1
+                      OPEN SHELL OCCUPATION       0    0
+
+  ZNUC SCFIT  TOTAL HF ENERGY   KINETIC ENERGY   VIRIAL THEOREM ACCURACY
+  12.0   4   -1.970073539E+02  1.945732157E+02 -2.012510140E+00  2.9E-06
+
+ NUCLEAR CHARGE  8.0  SYMMETRY SPECIES            S    P
+ N. ELECTRONS    8.0  NUMBER OF PRIMITIVE GTOS    6    3
+                      NUMBER OF CONTRACTED GTOS   2    1
+                      NUMBER OF CLOSED SHELLS     2    0
+                      OPEN SHELL OCCUPATION       0    4
+
+  ZNUC SCFIT  TOTAL HF ENERGY   KINETIC ENERGY   VIRIAL THEOREM ACCURACY
+   8.0   1   -7.380415023E+01  7.344495887E+01 -2.004890620E+00  0.0E+00
+
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  12.0000000  12.0000000   8.0000000   8.0000000   8.0000000   8.0000000
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        1.13 TCPU        1.12
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        6.66 TCPU        6.65
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        6.70 TCPU        6.70
+ NUMERICALLY INTEGRATED DENSITY     55.9999852306
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        7.12 TCPU        7.12
+ CYC   0 ETOT(AU) -6.906335991605E+02 DETOT -6.91E+02 tst  0.00E+00 PX  1.00E+00
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        7.13 TCPU        7.12
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        7.15 TCPU        7.14
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.2380483E-01 (RES. CHARGE  7.85E-13;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        7.16 TCPU        7.16
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  10.9002128  10.9002128   8.5909208   8.5909208   8.5088664   8.5088664
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        7.17 TCPU        7.16
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       12.84 TCPU       12.83
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       12.88 TCPU       12.87
+ NUMERICALLY INTEGRATED DENSITY     55.9999892223
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       13.85 TCPU       13.84
+ CYC   1 ETOT(AU) -6.913635058922E+02 DETOT -7.30E-01 tst  0.00E+00 PX  1.00E+00
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       13.85 TCPU       13.85
+ DIIS TEST: 0.12937E+00 AT SCF   CYCLE   1 - MIX   70 %
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       13.86 TCPU       13.86
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.2679469E-01 (RES. CHARGE  3.21E-10;IT. 12)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       13.88 TCPU       13.87
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.1424891  11.1424865   9.0628764   9.0628870   7.7946182   7.7946429
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       13.89 TCPU       13.88
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       19.55 TCPU       19.54
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       19.60 TCPU       19.59
+ NUMERICALLY INTEGRATED DENSITY     55.9999920600
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       20.58 TCPU       20.57
+ CYC   2 ETOT(AU) -6.913309649991E+02 DETOT  3.25E-02 tst  4.65E-02 PX  4.89E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       20.58 TCPU       20.57
+ DIIS TEST: 0.21433E+00 AT SCF   CYCLE   2 - DIIS ACTIVE - HISTORY:     2 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       20.59 TCPU       20.59
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.2103333E-01 (RES. CHARGE  4.20E-11;IT. 14)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       20.61 TCPU       20.60
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.7537009  11.7536969   8.3631946   8.3632203   7.8831163   7.8830709
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       20.62 TCPU       20.61
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       26.37 TCPU       26.32
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       26.41 TCPU       26.36
+ NUMERICALLY INTEGRATED DENSITY     55.9999933851
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       27.37 TCPU       27.32
+ CYC   3 ETOT(AU) -6.914890805758E+02 DETOT -1.58E-01 tst  1.37E-02 PX  3.98E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       27.37 TCPU       27.32
+ DIIS TEST: 0.12856E+00 AT SCF   CYCLE   3 - DIIS ACTIVE - HISTORY:     3 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       27.38 TCPU       27.33
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.2327734E-01 (RES. CHARGE  8.26E-11;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       27.39 TCPU       27.34
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3666039  11.3666059   8.8455779   8.8455600   7.7878104   7.7878419
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       27.40 TCPU       27.35
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       33.09 TCPU       33.04
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       33.16 TCPU       33.09
+ NUMERICALLY INTEGRATED DENSITY     55.9999933971
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       34.11 TCPU       34.04
+ CYC   4 ETOT(AU) -6.914240536541E+02 DETOT  6.50E-02 tst  7.99E-03 PX  2.00E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       34.11 TCPU       34.04
+ DIIS TEST: 0.14442E+00 AT SCF   CYCLE   4 - DIIS ACTIVE - HISTORY:     4 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       34.12 TCPU       34.06
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.2168025E-01 (RES. CHARGE  2.02E-11;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       34.14 TCPU       34.07
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3682581  11.3682284   8.8385124   8.8386104   7.7922598   7.7941309
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       34.15 TCPU       34.08
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       39.80 TCPU       39.73
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       39.85 TCPU       39.78
+ NUMERICALLY INTEGRATED DENSITY     55.9999933652
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       40.81 TCPU       40.74
+ CYC   5 ETOT(AU) -6.914309198140E+02 DETOT -6.87E-03 tst  8.85E-06 PX  1.24E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       40.81 TCPU       40.74
+ DIIS TEST: 0.13817E+00 AT SCF   CYCLE   5 - DIIS ACTIVE - HISTORY:     5 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       40.82 TCPU       40.75
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.2040327E-01 (RES. CHARGE  7.11E-15;IT. 12)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       40.84 TCPU       40.77
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3593905  11.3666912   8.8408962   8.8048925   8.1015626   7.5265669
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       40.85 TCPU       40.77
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       46.50 TCPU       46.43
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       46.54 TCPU       46.47
+ NUMERICALLY INTEGRATED DENSITY     55.9999933133
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       47.51 TCPU       47.44
+ CYC   6 ETOT(AU) -6.912516196897E+02 DETOT  1.79E-01 tst  4.09E-03 PX  2.02E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       47.52 TCPU       47.45
+ DIIS TEST: 0.30439E+00 AT SCF   CYCLE   6 - DIIS ACTIVE - HISTORY:     6 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       47.53 TCPU       47.46
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.2009033E-01 (RES. CHARGE  2.80E-12;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       47.54 TCPU       47.47
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3612098  11.3637633   8.8286730   8.8149889   7.9242338   7.7071313
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       47.55 TCPU       47.48
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       53.20 TCPU       53.12
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       53.24 TCPU       53.17
+ NUMERICALLY INTEGRATED DENSITY     55.9999932668
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       54.21 TCPU       54.14
+ CYC   7 ETOT(AU) -6.914268810717E+02 DETOT -1.75E-01 tst  2.76E-04 PX  1.33E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       54.21 TCPU       54.14
+ DIIS TEST: 0.13873E+00 AT SCF   CYCLE   7 - DIIS ACTIVE - HISTORY:     7 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       54.22 TCPU       54.15
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.2052614E-01 (RES. CHARGE  2.27E-12;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       54.24 TCPU       54.16
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3631962  11.3571721   8.7961969   8.8299448   7.5694650   8.0840249
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       54.24 TCPU       54.17
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       59.90 TCPU       59.83
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       59.95 TCPU       59.87
+ NUMERICALLY INTEGRATED DENSITY     55.9999932764
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       60.92 TCPU       60.84
+ CYC   8 ETOT(AU) -6.913051492349E+02 DETOT  1.22E-01 tst  4.67E-03 PX  2.52E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       60.92 TCPU       60.84
+ DIIS TEST: 0.25390E+00 AT SCF   CYCLE   8 - DIIS ACTIVE - HISTORY:     8 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       60.93 TCPU       60.86
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.2040255E-01 (RES. CHARGE  3.55E-15;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       60.95 TCPU       60.87
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3630634  11.3572128   8.7963784   8.8293486   7.5755602   8.0784366
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       60.95 TCPU       60.88
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       66.64 TCPU       66.56
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       66.68 TCPU       66.60
+ NUMERICALLY INTEGRATED DENSITY     55.9999932712
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       67.64 TCPU       67.56
+ CYC   9 ETOT(AU) -6.913126950739E+02 DETOT -7.55E-03 tst  1.94E-07 PX  5.37E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       67.64 TCPU       67.56
+ DIIS TEST: 0.24751E+00 AT SCF   CYCLE   9 - DIIS ACTIVE - HISTORY:     9 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       67.65 TCPU       67.57
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.1982941E-01 (RES. CHARGE  2.24E-13;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       67.67 TCPU       67.59
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3615392  11.3564974   8.8001066   8.8313310   7.5856525   8.0648732
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       67.67 TCPU       67.59
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       73.30 TCPU       73.22
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       73.34 TCPU       73.27
+ NUMERICALLY INTEGRATED DENSITY     55.9999931880
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       74.30 TCPU       74.22
+ CYC  10 ETOT(AU) -6.913242442177E+02 DETOT -1.15E-02 tst  2.19E-04 PX  9.15E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       74.30 TCPU       74.22
+ DIIS TEST: 0.23846E+00 AT SCF   CYCLE  10 - DIIS ACTIVE - HISTORY:    10 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       74.31 TCPU       74.24
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.1906779E-01 (RES. CHARGE  7.58E-10;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       74.33 TCPU       74.25
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3602250  11.3538398   8.7885772   8.8300590   7.5034845   8.1638145
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       74.33 TCPU       74.26
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       79.96 TCPU       79.89
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       80.01 TCPU       79.93
+ NUMERICALLY INTEGRATED DENSITY     55.9999930585
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       80.99 TCPU       80.91
+ CYC  11 ETOT(AU) -6.912056876829E+02 DETOT  1.19E-01 tst  6.39E-04 PX  9.85E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       80.99 TCPU       80.91
+ DIIS TEST: 0.33296E+00 AT SCF   CYCLE  11 - DIIS ACTIVE - HISTORY:    11 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       81.00 TCPU       80.93
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.1884455E-01 (RES. CHARGE  7.46E-14;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       81.02 TCPU       80.94
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3597630  11.3546442   8.7928574   8.8242503   7.5974452   8.0710398
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       81.03 TCPU       80.95
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       86.66 TCPU       86.58
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       86.70 TCPU       86.63
+ NUMERICALLY INTEGRATED DENSITY     55.9999930594
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       87.66 TCPU       87.58
+ CYC  12 ETOT(AU) -6.913359379300E+02 DETOT -1.30E-01 tst  4.58E-04 PX  6.36E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       87.66 TCPU       87.58
+ DIIS TEST: 0.22626E+00 AT SCF   CYCLE  12 - DIIS ACTIVE - HISTORY:    12 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       87.67 TCPU       87.59
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.1149237E-01 (RES. CHARGE  1.73E-12;IT. 12)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       87.69 TCPU       87.61
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3468875  11.3391238   8.6789566   8.6847203   7.8026918   8.1476200
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       87.69 TCPU       87.61
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE       93.32 TCPU       93.24
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE       93.37 TCPU       93.29
+ NUMERICALLY INTEGRATED DENSITY     55.9999920601
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE       94.33 TCPU       94.25
+ CYC  13 ETOT(AU) -6.915116116528E+02 DETOT -1.76E-01 tst  6.90E-02 PX  3.25E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE       94.33 TCPU       94.25
+ DIIS TEST: 0.75497E-01 AT SCF   CYCLE  13 - DIIS ACTIVE - HISTORY:    13 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE       94.35 TCPU       94.27
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.1226127E-01 (RES. CHARGE  8.26E-12;IT. 12)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE       94.36 TCPU       94.28
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3332895  11.3430895   8.7957705   8.5803021   9.4538017   6.4937467
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE       94.37 TCPU       94.29
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      100.11 TCPU      100.00
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      100.16 TCPU      100.04
+ NUMERICALLY INTEGRATED DENSITY     55.9999910954
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      101.12 TCPU      101.00
+ CYC  14 ETOT(AU) -6.861853377097E+02 DETOT  5.33E+00 tst  2.26E-02 PX  8.58E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      101.12 TCPU      101.00
+ DIIS TEST: 0.90118E+01 AT SCF   CYCLE  14 - DIIS ACTIVE - HISTORY:    14 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      101.13 TCPU      101.01
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0896032E-01 (RES. CHARGE  1.11E-12;IT. 12)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      101.14 TCPU      101.02
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3417264  11.3405315   8.6432267   8.6022067   8.3087712   7.7635375
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      101.15 TCPU      101.03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      106.79 TCPU      106.67
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      106.83 TCPU      106.71
+ NUMERICALLY INTEGRATED DENSITY     55.9999920811
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      107.79 TCPU      107.67
+ CYC  15 ETOT(AU) -6.914343091887E+02 DETOT -5.25E+00 tst  1.31E-02 PX  6.62E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      107.79 TCPU      107.67
+ DIIS TEST: 0.49632E+00 AT SCF   CYCLE  15 - DIIS ACTIVE - HISTORY:    15 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      107.80 TCPU      107.68
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0909986E-01 (RES. CHARGE  1.84E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      107.82 TCPU      107.70
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3417512  11.3409963   8.6446223   8.5810790   8.4315894   7.6599618
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      107.82 TCPU      107.70
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      113.46 TCPU      113.34
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      113.50 TCPU      113.38
+ NUMERICALLY INTEGRATED DENSITY     55.9999921123
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      114.46 TCPU      114.34
+ CYC  16 ETOT(AU) -6.912537969749E+02 DETOT  1.81E-01 tst  4.21E-04 PX  8.19E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      114.46 TCPU      114.34
+ DIIS TEST: 0.92110E+00 AT SCF   CYCLE  16 - DIIS ACTIVE - HISTORY:    16 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      114.47 TCPU      114.35
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0955267E-01 (RES. CHARGE  8.62E-12;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      114.49 TCPU      114.37
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3402032  11.3411907   8.6900146   8.5347601   8.8314005   7.2624307
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      114.49 TCPU      114.37
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      120.13 TCPU      120.01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      120.17 TCPU      120.05
+ NUMERICALLY INTEGRATED DENSITY     55.9999921070
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      121.13 TCPU      121.01
+ CYC  17 ETOT(AU) -6.900842512062E+02 DETOT  1.17E+00 tst  3.16E-03 PX  2.08E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      121.13 TCPU      121.01
+ DIIS TEST: 0.31557E+01 AT SCF   CYCLE  17 - DIIS ACTIVE - HISTORY:    17 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      121.14 TCPU      121.02
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0954135E-01 (RES. CHARGE  3.55E-15;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      121.16 TCPU      121.04
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3402379  11.3411895   8.6899468   8.5350333   8.8286093   7.2649832
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      121.16 TCPU      121.04
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      126.79 TCPU      126.67
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      126.84 TCPU      126.72
+ NUMERICALLY INTEGRATED DENSITY     55.9999921075
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      127.79 TCPU      127.67
+ CYC  18 ETOT(AU) -6.900946042110E+02 DETOT -1.04E-02 tst  3.53E-07 PX  1.72E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      127.80 TCPU      127.67
+ DIIS TEST: 0.31361E+01 AT SCF   CYCLE  18 - DIIS ACTIVE - HISTORY:    18 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      127.81 TCPU      127.68
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0921703E-01 (RES. CHARGE  8.70E-13;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      127.82 TCPU      127.70
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3405605  11.3388917   8.6664044   8.5498244   8.5816784   7.5226406
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      127.83 TCPU      127.70
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      133.45 TCPU      133.33
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      133.50 TCPU      133.38
+ NUMERICALLY INTEGRATED DENSITY     55.9999921059
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      134.46 TCPU      134.34
+ CYC  19 ETOT(AU) -6.909188237139E+02 DETOT -8.24E-01 tst  3.01E-03 PX  1.32E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      134.46 TCPU      134.34
+ DIIS TEST: 0.16089E+01 AT SCF   CYCLE  19 - DIIS ACTIVE - HISTORY:    19 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      134.47 TCPU      134.35
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0906356E-01 (RES. CHARGE  3.55E-14;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      134.49 TCPU      134.36
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3392309  11.3401421   8.6525731   8.5604191   8.5937541   7.5138808
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      134.49 TCPU      134.37
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      140.13 TCPU      140.01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      140.18 TCPU      140.05
+ NUMERICALLY INTEGRATED DENSITY     55.9999920519
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      141.16 TCPU      141.04
+ CYC  20 ETOT(AU) -6.909021643793E+02 DETOT  1.67E-02 tst  1.87E-05 PX  1.91E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      141.16 TCPU      141.04
+ DIIS TEST: 0.16224E+01 AT SCF   CYCLE  20 - DIIS ACTIVE - HISTORY:    20 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      141.17 TCPU      141.05
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0914306E-01 (RES. CHARGE  9.59E-14;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      141.19 TCPU      141.06
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3398307  11.3398785   8.6559219   8.5653594   8.5534688   7.5455407
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      141.19 TCPU      141.07
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      146.82 TCPU      146.70
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      146.87 TCPU      146.74
+ NUMERICALLY INTEGRATED DENSITY     55.9999920617
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      147.82 TCPU      147.70
+ CYC  21 ETOT(AU) -6.909918964557E+02 DETOT -8.97E-02 tst  2.72E-05 PX  3.05E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      147.83 TCPU      147.70
+ DIIS TEST: 0.14354E+01 AT SCF   CYCLE  21 - DIIS ACTIVE - HISTORY:    21 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      147.83 TCPU      147.71
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0974731E-01 (RES. CHARGE  2.27E-13;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      147.85 TCPU      147.73
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3368173  11.3420162   8.7104046   8.5568957   9.0245239   7.0293423
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      147.86 TCPU      147.73
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      153.49 TCPU      153.36
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      153.53 TCPU      153.41
+ NUMERICALLY INTEGRATED DENSITY     55.9999921802
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      154.48 TCPU      154.36
+ CYC  22 ETOT(AU) -6.891597322168E+02 DETOT  1.83E+00 tst  6.92E-03 PX  3.01E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      154.49 TCPU      154.36
+ DIIS TEST: 0.16537E+01 AT SCF   CYCLE  22 - DIIS ACTIVE - HISTORY:    22 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      154.50 TCPU      154.37
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0823945E-01 (RES. CHARGE  1.87E-10;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      154.51 TCPU      154.39
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3433148  11.3442618   8.6232725   8.4595429   9.1372853   7.0923227
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      154.52 TCPU      154.39
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      160.14 TCPU      160.01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      160.18 TCPU      160.06
+ NUMERICALLY INTEGRATED DENSITY     55.9999916149
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      161.14 TCPU      161.01
+ CYC  23 ETOT(AU) -6.890543430797E+02 DETOT  1.05E-01 tst  1.96E-03 PX  1.12E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      161.14 TCPU      161.01
+ DIIS TEST: 0.17254E+01 AT SCF   CYCLE  23 - DIIS ACTIVE - HISTORY:    23 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      161.15 TCPU      161.02
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0637216E-01 (RES. CHARGE  1.67E-11;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      161.16 TCPU      161.04
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3439865  11.3434733   8.5926830   8.4539847   8.9316630   7.3342096
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      161.17 TCPU      161.04
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      166.80 TCPU      166.67
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      166.84 TCPU      166.72
+ NUMERICALLY INTEGRATED DENSITY     55.9999917157
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      167.80 TCPU      167.67
+ CYC  24 ETOT(AU) -6.900591050382E+02 DETOT -1.00E+00 tst  1.60E-03 PX  2.16E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      167.80 TCPU      167.68
+ DIIS TEST: 0.30283E+01 AT SCF   CYCLE  24 - DIIS ACTIVE - HISTORY:    24 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      167.81 TCPU      167.69
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0738020E-01 (RES. CHARGE  1.14E-12;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      167.83 TCPU      167.70
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3438816  11.3426108   8.6105346   8.4270243   9.1168555   7.1590932
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      167.83 TCPU      167.71
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      173.46 TCPU      173.33
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      173.51 TCPU      173.38
+ NUMERICALLY INTEGRATED DENSITY     55.9999917008
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      174.46 TCPU      174.33
+ CYC  25 ETOT(AU) -6.892510416608E+02 DETOT  8.08E-01 tst  2.36E-03 PX  1.67E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      174.46 TCPU      174.34
+ DIIS TEST: 0.36559E+01 AT SCF   CYCLE  25 - DIIS ACTIVE - HISTORY:    25 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      174.47 TCPU      174.35
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0688771E-01 (RES. CHARGE  3.55E-15;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      174.49 TCPU      174.36
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3438200  11.3429062   8.6010377   8.4340717   9.0373733   7.2407911
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      174.49 TCPU      174.37
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      180.12 TCPU      180.00
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      180.17 TCPU      180.04
+ NUMERICALLY INTEGRATED DENSITY     55.9999917441
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      181.12 TCPU      181.00
+ CYC  26 ETOT(AU) -6.896307773932E+02 DETOT -3.80E-01 tst  2.00E-04 PX  7.98E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      181.13 TCPU      181.00
+ DIIS TEST: 0.36016E+01 AT SCF   CYCLE  26 - DIIS ACTIVE - HISTORY:    26 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      181.14 TCPU      181.01
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0710019E-01 (RES. CHARGE  5.47E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      181.15 TCPU      181.03
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3445522  11.3431389   8.6106074   8.4347245   9.0548856   7.2120914
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      181.16 TCPU      181.03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      186.81 TCPU      186.68
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      186.86 TCPU      186.73
+ NUMERICALLY INTEGRATED DENSITY     55.9999918118
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      187.81 TCPU      187.68
+ CYC  27 ETOT(AU) -6.895219523980E+02 DETOT  1.09E-01 tst  2.53E-05 PX  2.87E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      187.81 TCPU      187.68
+ DIIS TEST: 0.37604E+01 AT SCF   CYCLE  27 - DIIS ACTIVE - HISTORY:    27 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      187.82 TCPU      187.69
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0279883E-01 (RES. CHARGE  1.59E-11;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      187.84 TCPU      187.71
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3451221  11.3399735   8.5610321   8.4276959   8.6886704   7.6375060
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      187.84 TCPU      187.71
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      193.47 TCPU      193.34
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      193.52 TCPU      193.39
+ NUMERICALLY INTEGRATED DENSITY     55.9999910309
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      194.51 TCPU      194.36
+ CYC  28 ETOT(AU) -6.909395078227E+02 DETOT -1.42E+00 tst  2.17E-02 PX  3.80E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      194.51 TCPU      194.36
+ DIIS TEST: 0.13978E+01 AT SCF   CYCLE  28 - DIIS ACTIVE - HISTORY:    28 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      194.52 TCPU      194.37
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0228597E-01 (RES. CHARGE  1.60E-12;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      194.53 TCPU      194.39
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3437625  11.3399569   8.5455996   8.4416301   8.5944451   7.7346058
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      194.54 TCPU      194.39
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      200.17 TCPU      200.02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      200.22 TCPU      200.07
+ NUMERICALLY INTEGRATED DENSITY     55.9999910592
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      201.20 TCPU      201.05
+ CYC  29 ETOT(AU) -6.911722137032E+02 DETOT -2.33E-01 tst  8.37E-04 PX  6.75E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      201.21 TCPU      201.06
+ DIIS TEST: 0.98116E+00 AT SCF   CYCLE  29 - DIIS ACTIVE - HISTORY:    29 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      201.22 TCPU      201.07
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0641743E-01 (RES. CHARGE  1.22E-10;IT. 14)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      201.23 TCPU      201.08
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3502439  11.3406766   8.5453459   8.4685349   8.3835383   7.9116603
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      201.24 TCPU      201.09
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      206.86 TCPU      206.71
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      206.91 TCPU      206.76
+ NUMERICALLY INTEGRATED DENSITY     55.9999914993
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      207.87 TCPU      207.72
+ CYC  30 ETOT(AU) -6.914944390951E+02 DETOT -3.22E-01 tst  5.36E-03 PX  2.20E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      207.88 TCPU      207.72
+ DIIS TEST: 0.32365E+00 AT SCF   CYCLE  30 - DIIS ACTIVE - HISTORY:    30 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      207.89 TCPU      207.74
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0764441E-01 (RES. CHARGE  1.21E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      207.90 TCPU      207.75
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3488265  11.3390626   8.5310206   8.4764488   8.2373643   8.0672772
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      207.91 TCPU      207.76
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      213.57 TCPU      213.40
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      213.62 TCPU      213.45
+ NUMERICALLY INTEGRATED DENSITY     55.9999915063
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      214.64 TCPU      214.44
+ CYC  31 ETOT(AU) -6.916167973681E+02 DETOT -1.22E-01 tst  1.29E-03 PX  1.81E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      214.64 TCPU      214.44
+ DIIS TEST: 0.40477E-01 AT SCF   CYCLE  31 - DIIS ACTIVE - HISTORY:    31 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      214.65 TCPU      214.45
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0672401E-01 (RES. CHARGE  9.30E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      214.66 TCPU      214.47
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3506773  11.3398491   8.5460032   8.4723838   8.3617029   7.9293837
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      214.67 TCPU      214.47
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      220.33 TCPU      220.12
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      220.37 TCPU      220.17
+ NUMERICALLY INTEGRATED DENSITY     55.9999913828
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      221.33 TCPU      221.12
+ CYC  32 ETOT(AU) -6.915195631700E+02 DETOT  9.72E-02 tst  1.45E-03 PX  1.22E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      221.33 TCPU      221.13
+ DIIS TEST: 0.74746E-01 AT SCF   CYCLE  32 - DIIS ACTIVE - HISTORY:    32 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      221.34 TCPU      221.14
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0718113E-01 (RES. CHARGE  5.19E-12;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      221.36 TCPU      221.15
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3507356  11.3393599   8.5451222   8.4731809   8.3330964   7.9585049
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      221.36 TCPU      221.16
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      227.00 TCPU      226.79
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      227.05 TCPU      226.83
+ NUMERICALLY INTEGRATED DENSITY     55.9999916249
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      228.00 TCPU      227.79
+ CYC  33 ETOT(AU) -6.915481573927E+02 DETOT -2.86E-02 tst  3.08E-04 PX  5.43E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      228.00 TCPU      227.79
+ DIIS TEST: 0.56592E-01 AT SCF   CYCLE  33 - DIIS ACTIVE - HISTORY:    33 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      228.01 TCPU      227.80
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.1078292E-01 (RES. CHARGE  0.00E+00;IT. 12)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      228.03 TCPU      227.81
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3463483  11.3378377   8.5437509   8.5169512   8.1654766   8.0896353
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      228.03 TCPU      227.82
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      233.66 TCPU      233.45
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      233.71 TCPU      233.49
+ NUMERICALLY INTEGRATED DENSITY     55.9999927569
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      234.66 TCPU      234.45
+ CYC  34 ETOT(AU) -6.916357632182E+02 DETOT -8.76E-02 tst  8.81E-03 PX  2.75E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      234.67 TCPU      234.45
+ DIIS TEST: 0.87893E-02 AT SCF   CYCLE  34 - DIIS ACTIVE - HISTORY:    34 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      234.68 TCPU      234.46
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.1021852E-01 (RES. CHARGE  3.92E-11;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      234.69 TCPU      234.48
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3462957  11.3361082   8.5418319   8.5258750   8.0813622   8.1685271
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      234.70 TCPU      234.48
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      240.33 TCPU      240.11
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      240.37 TCPU      240.16
+ NUMERICALLY INTEGRATED DENSITY     55.9999929320
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      241.33 TCPU      241.11
+ CYC  35 ETOT(AU) -6.916376612435E+02 DETOT -1.90E-03 tst  3.94E-03 PX  1.78E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      241.33 TCPU      241.12
+ DIIS TEST: 0.92703E-02 AT SCF   CYCLE  35 - DIIS ACTIVE - HISTORY:    35 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      241.34 TCPU      241.13
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0837776E-01 (RES. CHARGE  1.01E-10;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      241.36 TCPU      241.14
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3461742  11.3368811   8.5342834   8.5128266   8.0930784   8.1767563
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      241.36 TCPU      241.15
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      247.09 TCPU      246.82
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      247.14 TCPU      246.86
+ NUMERICALLY INTEGRATED DENSITY     55.9999926082
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      248.10 TCPU      247.82
+ CYC  36 ETOT(AU) -6.916387938864E+02 DETOT -1.13E-03 tst  1.23E-04 PX  8.12E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      248.10 TCPU      247.82
+ DIIS TEST: 0.24793E-02 AT SCF   CYCLE  36 - DIIS ACTIVE - HISTORY:    36 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      248.11 TCPU      247.84
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0812834E-01 (RES. CHARGE  1.08E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      248.12 TCPU      247.85
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3465934  11.3358661   8.5341584   8.5016609   8.0856570   8.1960642
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      248.13 TCPU      247.86
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      253.77 TCPU      253.49
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      253.82 TCPU      253.54
+ NUMERICALLY INTEGRATED DENSITY     55.9999919728
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      254.77 TCPU      254.50
+ CYC  37 ETOT(AU) -6.916382248327E+02 DETOT  5.69E-04 tst  1.65E-04 PX  1.59E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      254.78 TCPU      254.50
+ DIIS TEST: 0.13237E-01 AT SCF   CYCLE  37 - DIIS ACTIVE - HISTORY:    37 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      254.79 TCPU      254.51
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0792249E-01 (RES. CHARGE  1.03E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      254.80 TCPU      254.52
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3464848  11.3358738   8.5338559   8.5010667   8.0865166   8.1962022
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      254.81 TCPU      254.53
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      260.45 TCPU      260.18
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      260.50 TCPU      260.22
+ NUMERICALLY INTEGRATED DENSITY     55.9999919200
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      261.47 TCPU      261.19
+ CYC  38 ETOT(AU) -6.916384960546E+02 DETOT -2.71E-04 tst  8.89E-06 PX  1.15E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      261.47 TCPU      261.20
+ DIIS TEST: 0.39480E-02 AT SCF   CYCLE  38 - DIIS ACTIVE - HISTORY:    38 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      261.49 TCPU      261.21
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0910858E-01 (RES. CHARGE  3.35E-12;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      261.50 TCPU      261.22
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3467945  11.3363091   8.5369977   8.5155015   8.0826533   8.1817438
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      261.51 TCPU      261.23
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      267.14 TCPU      266.86
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      267.19 TCPU      266.91
+ NUMERICALLY INTEGRATED DENSITY     55.9999926730
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      268.14 TCPU      267.86
+ CYC  39 ETOT(AU) -6.916374858093E+02 DETOT  1.01E-03 tst  1.65E-04 PX  1.75E-01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      268.14 TCPU      267.87
+ DIIS TEST: 0.34830E-02 AT SCF   CYCLE  39 - DIIS ACTIVE - HISTORY:    39 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      268.15 TCPU      267.88
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0961249E-01 (RES. CHARGE  1.05E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      268.17 TCPU      267.89
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3464853  11.3367695   8.5363331   8.5194148   8.0798799   8.1811175
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      268.17 TCPU      267.90
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      273.80 TCPU      273.52
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      273.85 TCPU      273.57
+ NUMERICALLY INTEGRATED DENSITY     55.9999928969
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      274.80 TCPU      274.52
+ CYC  40 ETOT(AU) -6.916369872981E+02 DETOT  4.99E-04 tst  9.42E-05 PX  5.20E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      274.81 TCPU      274.53
+ DIIS TEST: 0.12080E-01 AT SCF   CYCLE  40 - DIIS ACTIVE - HISTORY:    40 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      274.82 TCPU      274.54
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0999604E-01 (RES. CHARGE  6.50E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      274.83 TCPU      274.55
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3456540  11.3376840   8.5318015   8.5219040   8.0893166   8.1736400
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      274.84 TCPU      274.56
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      280.47 TCPU      280.19
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      280.52 TCPU      280.24
+ NUMERICALLY INTEGRATED DENSITY     55.9999931648
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      281.50 TCPU      281.21
+ CYC  41 ETOT(AU) -6.916385582482E+02 DETOT -1.57E-03 tst  7.75E-04 PX  7.41E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      281.51 TCPU      281.22
+ DIIS TEST: 0.88688E-02 AT SCF   CYCLE  41 - DIIS ACTIVE - HISTORY:    41 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      281.52 TCPU      281.23
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0996666E-01 (RES. CHARGE  2.62E-12;IT.  6)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      281.53 TCPU      281.24
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3457197  11.3377510   8.5330170   8.5214002   8.0893942   8.1727179
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      281.54 TCPU      281.25
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      287.17 TCPU      286.88
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      287.21 TCPU      286.92
+ NUMERICALLY INTEGRATED DENSITY     55.9999931447
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      288.17 TCPU      287.88
+ CYC  42 ETOT(AU) -6.916387095265E+02 DETOT -1.51E-04 tst  5.22E-06 PX  4.59E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      288.17 TCPU      287.88
+ DIIS TEST: 0.85867E-02 AT SCF   CYCLE  42 - DIIS ACTIVE - HISTORY:    42 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      288.18 TCPU      287.89
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.1015219E-01 (RES. CHARGE  1.81E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      288.19 TCPU      287.90
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3455942  11.3378764   8.5336139   8.5224676   8.0899951   8.1704528
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      288.20 TCPU      287.91
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      293.83 TCPU      293.54
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      293.88 TCPU      293.59
+ NUMERICALLY INTEGRATED DENSITY     55.9999932488
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      294.83 TCPU      294.54
+ CYC  43 ETOT(AU) -6.916390021706E+02 DETOT -2.93E-04 tst  1.22E-04 PX  2.64E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      294.83 TCPU      294.54
+ DIIS TEST: 0.80168E-02 AT SCF   CYCLE  43 - DIIS ACTIVE - HISTORY:    43 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      294.84 TCPU      294.55
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.1005711E-01 (RES. CHARGE  1.44E-11;IT.  6)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      294.86 TCPU      294.57
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3456628  11.3377249   8.5336710   8.5218446   8.0882992   8.1727975
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      294.86 TCPU      294.57
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      300.49 TCPU      300.20
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      300.54 TCPU      300.25
+ NUMERICALLY INTEGRATED DENSITY     55.9999931717
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      301.49 TCPU      301.20
+ CYC  44 ETOT(AU) -6.916386238488E+02 DETOT  3.78E-04 tst  6.94E-05 PX  2.00E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      301.49 TCPU      301.20
+ DIIS TEST: 0.87877E-02 AT SCF   CYCLE  44 - DIIS ACTIVE - HISTORY:    44 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      301.50 TCPU      301.21
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0993058E-01 (RES. CHARGE  5.67E-10;IT.  6)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      301.52 TCPU      301.23
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3458886  11.3380330   8.5339232   8.5217214   8.0998186   8.1606152
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      301.52 TCPU      301.23
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      307.15 TCPU      306.86
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      307.19 TCPU      306.91
+ NUMERICALLY INTEGRATED DENSITY     55.9999932982
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      308.15 TCPU      307.86
+ CYC  45 ETOT(AU) -6.916406879795E+02 DETOT -2.06E-03 tst  3.30E-04 PX  3.39E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      308.15 TCPU      307.86
+ DIIS TEST: 0.45619E-02 AT SCF   CYCLE  45 - DIIS ACTIVE - HISTORY:    45 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      308.16 TCPU      307.87
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0982297E-01 (RES. CHARGE  3.04E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      308.18 TCPU      307.89
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3457747  11.3381220   8.5341858   8.5194859   8.1110465   8.1513851
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      308.18 TCPU      307.89
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      313.81 TCPU      313.52
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      313.86 TCPU      313.57
+ NUMERICALLY INTEGRATED DENSITY     55.9999934227
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      314.81 TCPU      314.52
+ CYC  46 ETOT(AU) -6.916421509267E+02 DETOT -1.46E-03 tst  1.33E-04 PX  3.25E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      314.81 TCPU      314.52
+ DIIS TEST: 0.59394E-03 AT SCF   CYCLE  46 - DIIS ACTIVE - HISTORY:    46 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      314.83 TCPU      314.53
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.1009264E-01 (RES. CHARGE  3.21E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      314.84 TCPU      314.55
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3455469  11.3386486   8.5362825   8.5210586   8.1231894   8.1352740
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      314.85 TCPU      314.55
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      320.48 TCPU      320.19
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      320.53 TCPU      320.23
+ NUMERICALLY INTEGRATED DENSITY     55.9999935756
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      321.50 TCPU      321.21
+ CYC  47 ETOT(AU) -6.916430966395E+02 DETOT -9.46E-04 tst  1.23E-04 PX  4.35E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      321.51 TCPU      321.22
+ DIIS TEST: 0.85299E-04 AT SCF   CYCLE  47 - DIIS ACTIVE - HISTORY:    47 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      321.52 TCPU      321.23
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0980588E-01 (RES. CHARGE  9.15E-11;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      321.53 TCPU      321.24
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3456892  11.3386468   8.5352758   8.5196333   8.1252480   8.1355069
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      321.54 TCPU      321.25
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      327.17 TCPU      326.87
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      327.21 TCPU      326.92
+ NUMERICALLY INTEGRATED DENSITY     55.9999935125
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      328.16 TCPU      327.87
+ CYC  48 ETOT(AU) -6.916431126495E+02 DETOT -1.60E-05 tst  2.19E-05 PX  1.64E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      328.17 TCPU      327.88
+ DIIS TEST: 0.55209E-04 AT SCF   CYCLE  48 - DIIS ACTIVE - HISTORY:    48 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      328.18 TCPU      327.89
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0962944E-01 (RES. CHARGE  7.14E-10;IT.  6)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      328.19 TCPU      327.90
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3453634  11.3389690   8.5354105   8.5207002   8.1327250   8.1268319
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      328.20 TCPU      327.91
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      333.83 TCPU      333.53
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      333.87 TCPU      333.58
+ NUMERICALLY INTEGRATED DENSITY     55.9999935562
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      334.83 TCPU      334.53
+ CYC  49 ETOT(AU) -6.916432036435E+02 DETOT -9.10E-05 tst  2.88E-05 PX  2.45E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      334.83 TCPU      334.54
+ DIIS TEST: 0.38297E-04 AT SCF   CYCLE  49 - DIIS ACTIVE - HISTORY:    49 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      334.84 TCPU      334.55
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0901804E-01 (RES. CHARGE  1.45E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      334.85 TCPU      334.56
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3451746  11.3387184   8.5329311   8.5180006   8.1338820   8.1312933
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      334.86 TCPU      334.57
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      340.49 TCPU      340.20
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      340.53 TCPU      340.24
+ NUMERICALLY INTEGRATED DENSITY     55.9999934776
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      341.49 TCPU      341.20
+ CYC  50 ETOT(AU) -6.916432541143E+02 DETOT -5.05E-05 tst  2.81E-05 PX  2.23E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      341.49 TCPU      341.20
+ DIIS TEST: 0.11494E-04 AT SCF   CYCLE  50 - DIIS ACTIVE - HISTORY:    50 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      341.50 TCPU      341.21
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0864384E-01 (RES. CHARGE  1.39E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      341.52 TCPU      341.22
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3450478  11.3386266   8.5323317   8.5173108   8.1332601   8.1334230
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      341.52 TCPU      341.23
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      347.15 TCPU      346.86
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      347.20 TCPU      346.91
+ NUMERICALLY INTEGRATED DENSITY     55.9999934296
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      348.15 TCPU      347.86
+ CYC  51 ETOT(AU) -6.916432761080E+02 DETOT -2.20E-05 tst  9.57E-06 PX  1.31E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      348.16 TCPU      347.86
+ DIIS TEST: 0.39734E-05 AT SCF   CYCLE  51 - DIIS ACTIVE - HISTORY:    51 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      348.17 TCPU      347.87
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0814262E-01 (RES. CHARGE  4.95E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      348.18 TCPU      347.89
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3446837  11.3383605   8.5322130   8.5166800   8.1316084   8.1364544
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      348.19 TCPU      347.89
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      353.83 TCPU      353.53
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      353.87 TCPU      353.58
+ NUMERICALLY INTEGRATED DENSITY     55.9999933775
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      354.83 TCPU      354.54
+ CYC  52 ETOT(AU) -6.916433350213E+02 DETOT -5.89E-05 tst  7.68E-06 PX  2.47E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      354.83 TCPU      354.54
+ DIIS TEST: 0.31874E-05 AT SCF   CYCLE  52 - DIIS ACTIVE - HISTORY:    52 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      354.84 TCPU      354.55
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0832931E-01 (RES. CHARGE  4.44E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      354.86 TCPU      354.56
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3450020  11.3384865   8.5319078   8.5163732   8.1316084   8.1366222
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      354.87 TCPU      354.57
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      360.53 TCPU      360.22
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      360.58 TCPU      360.26
+ NUMERICALLY INTEGRATED DENSITY     55.9999933635
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      361.54 TCPU      361.22
+ CYC  53 ETOT(AU) -6.916432692628E+02 DETOT  6.58E-05 tst  8.35E-06 PX  1.78E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      361.54 TCPU      361.23
+ DIIS TEST: 0.35195E-05 AT SCF   CYCLE  53 - DIIS ACTIVE - HISTORY:    53 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      361.55 TCPU      361.24
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0814019E-01 (RES. CHARGE  4.99E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      361.57 TCPU      361.25
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3449455  11.3383612   8.5319730   8.5161777   8.1305700   8.1379726
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      361.57 TCPU      361.26
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      367.20 TCPU      366.89
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      367.24 TCPU      366.93
+ NUMERICALLY INTEGRATED DENSITY     55.9999933261
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      368.20 TCPU      367.89
+ CYC  54 ETOT(AU) -6.916432625540E+02 DETOT  6.71E-06 tst  4.38E-06 PX  9.40E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      368.21 TCPU      367.89
+ DIIS TEST: 0.10617E-04 AT SCF   CYCLE  54 - DIIS ACTIVE - HISTORY:    54 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      368.22 TCPU      367.90
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0840846E-01 (RES. CHARGE  2.93E-11;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      368.23 TCPU      367.92
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3452694  11.3385325   8.5317254   8.5162609   8.1308102   8.1374016
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      368.24 TCPU      367.92
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      373.88 TCPU      373.56
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      373.92 TCPU      373.61
+ NUMERICALLY INTEGRATED DENSITY     55.9999933253
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      374.87 TCPU      374.56
+ CYC  55 ETOT(AU) -6.916431958298E+02 DETOT  6.67E-05 tst  8.26E-06 PX  2.11E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      374.88 TCPU      374.56
+ DIIS TEST: 0.79273E-05 AT SCF   CYCLE  55 - DIIS ACTIVE - HISTORY:    55 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      374.89 TCPU      374.57
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0870282E-01 (RES. CHARGE  2.20E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      374.90 TCPU      374.59
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3455849  11.3387146   8.5319796   8.5165974   8.1312718   8.1358517
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      374.91 TCPU      374.59
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      380.56 TCPU      380.24
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      380.60 TCPU      380.29
+ NUMERICALLY INTEGRATED DENSITY     55.9999933387
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      381.57 TCPU      381.26
+ CYC  56 ETOT(AU) -6.916431365349E+02 DETOT  5.93E-05 tst  1.12E-05 PX  2.44E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      381.58 TCPU      381.26
+ DIIS TEST: 0.48954E-05 AT SCF   CYCLE  56 - DIIS ACTIVE - HISTORY:    56 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      381.59 TCPU      381.27
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0788556E-01 (RES. CHARGE  1.65E-10;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      381.60 TCPU      381.29
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3444954  11.3382112   8.5321367   8.5159803   8.1305189   8.1386575
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      381.61 TCPU      381.29
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      387.25 TCPU      386.94
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      387.30 TCPU      386.98
+ NUMERICALLY INTEGRATED DENSITY     55.9999933338
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      388.25 TCPU      387.94
+ CYC  57 ETOT(AU) -6.916433562305E+02 DETOT -2.20E-04 tst  1.25E-04 PX  7.27E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      388.26 TCPU      387.94
+ DIIS TEST: 0.10623E-04 AT SCF   CYCLE  57 - DIIS ACTIVE - HISTORY:    57 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      388.26 TCPU      387.95
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0861473E-01 (RES. CHARGE  3.13E-11;IT. 10)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      388.28 TCPU      387.96
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3457985  11.3387887   8.5315806   8.5159332   8.1320768   8.1358222
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      388.29 TCPU      387.97
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      393.92 TCPU      393.60
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      393.96 TCPU      393.64
+ NUMERICALLY INTEGRATED DENSITY     55.9999933100
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      394.91 TCPU      394.60
+ CYC  58 ETOT(AU) -6.916430980023E+02 DETOT  2.58E-04 tst  1.60E-04 PX  8.38E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      394.92 TCPU      394.60
+ DIIS TEST: 0.24206E-05 AT SCF   CYCLE  58 - DIIS ACTIVE - HISTORY:    58 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      394.93 TCPU      394.61
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0859643E-01 (RES. CHARGE  2.00E-11;IT.  6)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      394.94 TCPU      394.63
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3456544  11.3387377   8.5316120   8.5161262   8.1320567   8.1358130
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      394.95 TCPU      394.63
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      400.59 TCPU      400.27
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      400.63 TCPU      400.31
+ NUMERICALLY INTEGRATED DENSITY     55.9999933216
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      401.59 TCPU      401.27
+ CYC  59 ETOT(AU) -6.916431296520E+02 DETOT -3.16E-05 tst  4.35E-06 PX  1.08E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      401.59 TCPU      401.27
+ DIIS TEST: 0.24156E-05 AT SCF   CYCLE  59 - DIIS ACTIVE - HISTORY:    59 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      401.60 TCPU      401.28
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0870175E-01 (RES. CHARGE  7.11E-15;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      401.62 TCPU      401.30
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3457891  11.3388257   8.5315259   8.5161456   8.1322250   8.1354887
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      401.62 TCPU      401.30
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      407.25 TCPU      406.93
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      407.30 TCPU      406.98
+ NUMERICALLY INTEGRATED DENSITY     55.9999933195
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      408.25 TCPU      407.93
+ CYC  60 ETOT(AU) -6.916431053031E+02 DETOT  2.43E-05 tst  2.63E-06 PX  9.00E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      408.25 TCPU      407.93
+ DIIS TEST: 0.21171E-05 AT SCF   CYCLE  60 - DIIS ACTIVE - HISTORY:    60 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      408.26 TCPU      407.94
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0856456E-01 (RES. CHARGE  4.62E-13;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      408.28 TCPU      407.96
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3456790  11.3387609   8.5315089   8.5160831   8.1324395   8.1355285
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      408.28 TCPU      407.96
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      413.92 TCPU      413.60
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      413.96 TCPU      413.64
+ NUMERICALLY INTEGRATED DENSITY     55.9999933173
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      414.92 TCPU      414.60
+ CYC  61 ETOT(AU) -6.916431257668E+02 DETOT -2.05E-05 tst  1.69E-06 PX  7.98E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      414.92 TCPU      414.60
+ DIIS TEST: 0.15964E-05 AT SCF   CYCLE  61 - DIIS ACTIVE - HISTORY:    61 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      414.93 TCPU      414.61
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0853914E-01 (RES. CHARGE  3.91E-14;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      414.94 TCPU      414.62
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3458691  11.3388154   8.5315577   8.5160355   8.1329373   8.1347850
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      414.95 TCPU      414.63
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      420.58 TCPU      420.26
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      420.62 TCPU      420.30
+ NUMERICALLY INTEGRATED DENSITY     55.9999933081
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      421.58 TCPU      421.26
+ CYC  62 ETOT(AU) -6.916430819457E+02 DETOT  4.38E-05 tst  9.89E-06 PX  1.80E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      421.58 TCPU      421.26
+ DIIS TEST: 0.12150E-05 AT SCF   CYCLE  62 - DIIS ACTIVE - HISTORY:    62 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      421.59 TCPU      421.27
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0843396E-01 (RES. CHARGE  2.68E-11;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      421.61 TCPU      421.29
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3458774  11.3387761   8.5314418   8.5158894   8.1329909   8.1350244
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      421.61 TCPU      421.29
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      427.24 TCPU      426.92
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      427.29 TCPU      426.97
+ NUMERICALLY INTEGRATED DENSITY     55.9999932976
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      428.24 TCPU      427.92
+ CYC  63 ETOT(AU) -6.916430737118E+02 DETOT  8.23E-06 tst  8.41E-07 PX  3.67E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      428.25 TCPU      427.93
+ DIIS TEST: 0.10463E-05 AT SCF   CYCLE  63 - DIIS ACTIVE - HISTORY:    63 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      428.26 TCPU      427.94
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0783879E-01 (RES. CHARGE  2.74E-10;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      428.27 TCPU      427.95
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3458512  11.3385260   8.5307489   8.5147722   8.1336914   8.1364104
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      428.28 TCPU      427.96
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      433.90 TCPU      433.58
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      433.95 TCPU      433.63
+ NUMERICALLY INTEGRATED DENSITY     55.9999932470
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      434.90 TCPU      434.58
+ CYC  64 ETOT(AU) -6.916430419626E+02 DETOT  3.17E-05 tst  2.25E-05 PX  1.93E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      434.91 TCPU      434.59
+ DIIS TEST: 0.18260E-06 AT SCF   CYCLE  64 - DIIS ACTIVE - HISTORY:    64 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      434.92 TCPU      434.60
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0792705E-01 (RES. CHARGE  1.45E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      434.93 TCPU      434.61
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3458579  11.3385075   8.5301470   8.5141886   8.1324383   8.1388608
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      434.94 TCPU      434.62
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      440.60 TCPU      440.27
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      440.64 TCPU      440.32
+ NUMERICALLY INTEGRATED DENSITY     55.9999932190
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      441.62 TCPU      441.30
+ CYC  65 ETOT(AU) -6.916430294629E+02 DETOT  1.25E-05 tst  2.54E-06 PX  7.21E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      441.63 TCPU      441.31
+ DIIS TEST: 0.58106E-05 AT SCF   CYCLE  65 - DIIS ACTIVE - HISTORY:    65 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      441.64 TCPU      441.32
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0758846E-01 (RES. CHARGE  1.40E-11;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      441.65 TCPU      441.33
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3456638  11.3382878   8.5300212   8.5137807   8.1320843   8.1401623
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      441.66 TCPU      441.34
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      447.29 TCPU      446.97
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      447.33 TCPU      447.01
+ NUMERICALLY INTEGRATED DENSITY     55.9999931905
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      448.29 TCPU      447.97
+ CYC  66 ETOT(AU) -6.916430413416E+02 DETOT -1.19E-05 tst  4.84E-06 PX  9.48E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      448.29 TCPU      447.97
+ DIIS TEST: 0.98471E-05 AT SCF   CYCLE  66 - DIIS ACTIVE - HISTORY:    66 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      448.30 TCPU      447.98
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0762606E-01 (RES. CHARGE  9.97E-10;IT.  6)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      448.32 TCPU      448.00
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3456808  11.3383072   8.5300230   8.5138157   8.1320739   8.1400993
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      448.32 TCPU      448.00
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      453.96 TCPU      453.63
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      454.00 TCPU      453.68
+ NUMERICALLY INTEGRATED DENSITY     55.9999931932
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      454.96 TCPU      454.63
+ CYC  67 ETOT(AU) -6.916430401337E+02 DETOT  1.21E-06 tst  7.90E-08 PX  7.16E-04
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      454.96 TCPU      454.64
+ DIIS TEST: 0.98167E-05 AT SCF   CYCLE  67 - DIIS ACTIVE - HISTORY:    67 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      454.97 TCPU      454.65
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0731947E-01 (RES. CHARGE  1.42E-14;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      454.98 TCPU      454.66
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3458705  11.3381359   8.5298320   8.5130173   8.1297039   8.1434404
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      454.99 TCPU      454.67
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      460.61 TCPU      460.29
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      460.66 TCPU      460.34
+ NUMERICALLY INTEGRATED DENSITY     55.9999930966
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      461.61 TCPU      461.29
+ CYC  68 ETOT(AU) -6.916429261829E+02 DETOT  1.14E-04 tst  9.02E-05 PX  2.80E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      461.62 TCPU      461.29
+ DIIS TEST: 0.41378E-04 AT SCF   CYCLE  68 - DIIS ACTIVE - HISTORY:    68 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      461.63 TCPU      461.30
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0751189E-01 (RES. CHARGE  3.27E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      461.64 TCPU      461.32
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3456862  11.3382414   8.5304259   8.5141170   8.1311892   8.1403403
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      461.65 TCPU      461.32
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      467.28 TCPU      466.95
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      467.32 TCPU      467.00
+ NUMERICALLY INTEGRATED DENSITY     55.9999931779
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      468.27 TCPU      467.95
+ CYC  69 ETOT(AU) -6.916430236420E+02 DETOT -9.75E-05 tst  6.97E-05 PX  2.35E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      468.28 TCPU      467.95
+ DIIS TEST: 0.13847E-04 AT SCF   CYCLE  69 - DIIS ACTIVE - HISTORY:    69 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      468.29 TCPU      467.96
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0748473E-01 (RES. CHARGE  1.78E-14;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      468.30 TCPU      467.98
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3455722  11.3382063   8.5306138   8.5144005   8.1311842   8.1400230
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      468.31 TCPU      467.98
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      473.94 TCPU      473.61
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      473.98 TCPU      473.66
+ NUMERICALLY INTEGRATED DENSITY     55.9999931854
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      474.93 TCPU      474.61
+ CYC  70 ETOT(AU) -6.916430492624E+02 DETOT -2.56E-05 tst  2.92E-06 PX  8.29E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      474.94 TCPU      474.61
+ DIIS TEST: 0.12302E-04 AT SCF   CYCLE  70 - DIIS ACTIVE - HISTORY:    70 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      474.95 TCPU      474.62
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0664043E-01 (RES. CHARGE  6.65E-11;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      474.96 TCPU      474.64
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3454112  11.3378237   8.5319538   8.5144488   8.1315896   8.1387730
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      474.97 TCPU      474.64
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      480.60 TCPU      480.27
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      480.64 TCPU      480.32
+ NUMERICALLY INTEGRATED DENSITY     55.9999931101
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      481.60 TCPU      481.27
+ CYC  71 ETOT(AU) -6.916430548409E+02 DETOT -5.58E-06 tst  7.11E-05 PX  2.25E-02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      481.60 TCPU      481.28
+ DIIS TEST: 0.17796E-04 AT SCF   CYCLE  71 - DIIS ACTIVE - HISTORY:    71 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      481.61 TCPU      481.29
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0672195E-01 (RES. CHARGE  4.42E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      481.62 TCPU      481.30
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3453864  11.3378824   8.5321806   8.5147891   8.1319557   8.1378059
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      481.63 TCPU      481.31
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      487.26 TCPU      486.93
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      487.31 TCPU      486.98
+ NUMERICALLY INTEGRATED DENSITY     55.9999931400
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      488.26 TCPU      487.93
+ CYC  72 ETOT(AU) -6.916430602819E+02 DETOT -5.44E-06 tst  6.24E-06 PX  8.09E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      488.26 TCPU      487.94
+ DIIS TEST: 0.78360E-05 AT SCF   CYCLE  72 - DIIS ACTIVE - HISTORY:    72 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      488.27 TCPU      487.95
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0668026E-01 (RES. CHARGE  4.97E-14;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      488.29 TCPU      487.96
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3454180  11.3378718   8.5322754   8.5147789   8.1318526   8.1378034
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      488.29 TCPU      487.97
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      493.93 TCPU      493.60
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      493.97 TCPU      493.65
+ NUMERICALLY INTEGRATED DENSITY     55.9999931311
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      494.93 TCPU      494.61
+ CYC  73 ETOT(AU) -6.916430494455E+02 DETOT  1.08E-05 tst  1.76E-06 PX  3.85E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      494.94 TCPU      494.61
+ DIIS TEST: 0.84959E-05 AT SCF   CYCLE  73 - DIIS ACTIVE - HISTORY:    73 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      494.95 TCPU      494.62
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0659590E-01 (RES. CHARGE  1.14E-12;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      494.96 TCPU      494.64
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3454043  11.3378465   8.5324525   8.5148364   8.1319687   8.1374917
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      494.97 TCPU      494.64
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      500.62 TCPU      500.29
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      500.67 TCPU      500.34
+ NUMERICALLY INTEGRATED DENSITY     55.9999931225
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      501.64 TCPU      501.31
+ CYC  74 ETOT(AU) -6.916430489522E+02 DETOT  4.93E-07 tst  1.10E-06 PX  2.48E-03
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE      501.64 TCPU      501.31
+ DIIS TEST: 0.62508E-05 AT SCF   CYCLE  74 - DIIS ACTIVE - HISTORY:    74 CYCLES
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE      501.65 TCPU      501.32
+ POSSIBLY CONDUCTING STATE - EFERMI(AU) -1.0630827E-01 (RES. CHARGE  9.91E-13;IT.  8)
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE      501.66 TCPU      501.34
+ CHARGE NORMALIZATION FACTOR   1.00000000
+ TOTAL ATOMIC CHARGES:
+  11.3452997  11.3377269   8.5321259   8.5142009   8.1349236   8.1357230
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE      501.67 TCPU      501.34
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE      507.30 TCPU      506.97
+
+ ::: DIPOLE MOMENT ALONG NON PERIODIC DIRECTIONS:
+ ::: A.U.     (Z) -4.10003E-02
+ ::: DEBYE         1.04212E-01
+
+ +++ ENERGIES IN A.U. +++
+ ::: EXT EL-POLE                                  -2.2925112082401E+03
+ ::: EXT EL-SPHEROPOLE                             0.0000000000000E+00
+ ::: BIELET ZONE E-E                               1.2023039814182E+03
+ ::: TOTAL E-E                                    -1.0902072268219E+03
+ ::: TOTAL E-N + N-E                               1.1906124195717E+03
+ ::: TOTAL N-N                                    -1.4173892139132E+03
+ ::: KINETIC ENERGY                                6.7962878301209E+02
+ ::: PSEUDO TOTAL   ENERGY                        -6.3735523815128E+02
+ ::: VIRIAL COEFFICIENT                            1.0320987530460E+00
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE      507.34 TCPU      507.02
+ NUMERICALLY INTEGRATED DENSITY     55.9999931131
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE      508.30 TCPU      507.97
+ CYC  75 ETOT(AU) -6.916430834641E+02 DETOT -3.45E-05 tst  5.70E-06 PX  2.48E-03
+
+ == SCF ENDED - CONVERGENCE ON ENERGY      E(AU) -6.9164308346412E+02 CYCLES  75
+
+
+ ENERGY EXPRESSION=HARTREE+FOCK EXCH*0.20000+(BECKE      EXCH)*0.80000+LYP        CORR
+
+
+ TOTAL ENERGY(DFT)(AU)( 75) -6.9164308346412E+02 DE-3.5E-05 tester 5.7E-06
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT EDFT        TELAPSE      508.30 TCPU      507.97
+ EIGENVECTORS IN FORTRAN UNIT 10
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE      508.31 TCPU      507.98
+ EEEEEEEEEE TERMINATION  DATE 21 01 2022 TIME 10:51:57.3
+Fri 21 Jan 2022 10:51:57 GMT
+Contents of temporary directory:
+total 10824
+-rw-r--r--  1 brunocamino  admin  1090200 21 Jan 10:51 diis_Fg
+-rw-r--r--  1 brunocamino  admin   364080 21 Jan 10:51 diis_Fia1
+-rw-r--r--  1 brunocamino  admin   359160 21 Jan 10:51 diis_Fia2
+-rw-r--r--  1 brunocamino  admin        0 21 Jan 10:43 diis_Sk
+-rw-r--r--  1 brunocamino  admin   863504 21 Jan 10:51 fort.10
+-rw-r--r--  1 brunocamino  admin    14536 21 Jan 10:51 fort.11
+-rw-r--r--  1 brunocamino  admin     1591 21 Jan 10:43 fort.34
+-rw-r--r--  1 brunocamino  admin    86992 21 Jan 10:43 fort.61
+-rw-r--r--  1 brunocamino  admin    27792 21 Jan 10:43 fort.62
+-rw-r--r--  1 brunocamino  admin   863504 21 Jan 10:51 fort.8
+-rw-r--r--  1 brunocamino  admin   161316 21 Jan 10:51 fort.9
+-rw-r--r--  1 brunocamino  admin    36104 21 Jan 10:51 fort.95
+-rw-r--r--  1 brunocamino  admin   412998 21 Jan 10:51 fort.98
+wave function binary file /Users/brunocamino/Desktop/Imperial/cmsg_icl/ml-surface-adsorption/data/Mg2O2_O1_100_3.f9
+file fort.98 saved as /Users/brunocamino/Desktop/Imperial/cmsg_icl/ml-surface-adsorption/data/Mg2O2_O1_100_3.f98
+geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/cmsg_icl/ml-surface-adsorption/data/Mg2O2_O1_100_3.gui
+temporary directory /Users/brunocamino/crystal/tmp removed
